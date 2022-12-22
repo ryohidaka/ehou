@@ -1,6 +1,6 @@
 {
   "name": "ehou",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "西暦に応じた恵方を取得することができるライブラリ",
   "files": [
     "dist"
