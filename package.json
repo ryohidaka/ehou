@@ -4,6 +4,8 @@
   "description": "西暦に応じた恵方を取得することができるライブラリ",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
