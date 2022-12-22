@@ -2,7 +2,10 @@
   "name": "ehou",
   "version": "1.0.0",
   "description": "西暦に応じた恵方を取得することができるライブラリ",
-  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
