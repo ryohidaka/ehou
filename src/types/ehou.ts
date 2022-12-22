@@ -1,5 +1,6 @@
 export type EhouType = {
   name: string;
+  hira: string;
   kana: string;
   romaji: string;
   direction: Direction;
