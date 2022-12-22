@@ -6,12 +6,16 @@ import { Current } from "./types/ehou";
  */
 export default class Ehou {
   current: Current;
+  last: Current;
+  next: Current;
 
   constructor(year?: number) {
     const date = new Date();
     const currentYear = year || date.getFullYear();
 
     this.getCurrentEhou(currentYear);
+    this.getLastEhou(currentYear - 1);
+    this.getNextEhou(currentYear + 1);
   }
 
   /**
@@ -21,6 +25,30 @@ export default class Ehou {
   getCurrentEhou = (year: number) => {
     const ehou = getEhou(year);
     this.current = {
+      year: year,
+      ehou: ehou,
+    };
+  };
+
+  /**
+   * Get Last Year Ehou
+   * @param year
+   */
+  getLastEhou = (year: number) => {
+    const ehou = getEhou(year);
+    this.last = {
+      year: year,
+      ehou: ehou,
+    };
+  };
+
+  /**
+   * Get Next Year Ehou
+   * @param year
+   */
+  getNextEhou = (year: number) => {
+    const ehou = getEhou(year);
+    this.next = {
       year: year,
       ehou: ehou,
     };
