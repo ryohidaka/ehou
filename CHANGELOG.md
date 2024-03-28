@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/ryohidaka/ehou/compare/v1.1.0...v1.1.1) (2024-03-28)
+
+
+### Bug Fixes
+
+* private設定を削除 ([3a9db51](https://github.com/ryohidaka/ehou/commit/3a9db5117fee2eb845bd5b6d3d8dc9484c1f61b7))
+
 ## [1.1.0](https://github.com/ryohidaka/ehou/compare/v1.0.3...v1.1.0) (2024-03-28)
 
 
