@@ -5,9 +5,9 @@ import { Current } from "./types/ehou";
  * Ehou class
  */
 export default class Ehou {
-  current: Current;
-  last: Current;
-  next: Current;
+  current: Current | undefined;
+  last: Current | undefined;
+  next: Current | undefined;
 
   constructor(year?: number) {
     const date = new Date();
