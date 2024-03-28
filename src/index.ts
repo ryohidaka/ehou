@@ -1,5 +1,5 @@
 import { getEhou } from "./modules/ehou";
-import { Current } from "./types/ehou";
+import { Current } from "./types";
 
 /**
  * Ehou class
