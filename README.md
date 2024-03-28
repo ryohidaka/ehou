@@ -1,16 +1,23 @@
 # ehou
-西暦に応じた恵方を取得することができるライブラリ
 
 [![npm version](https://badge.fury.io/js/ehou.svg)](https://badge.fury.io/js/ehou)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![build](https://github.com/ryohidaka/ehou/workflows/Build/badge.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B6TVH92)
+
+## Overview
+
+西暦に応じた恵方を取得することができるライブラリ
+
+## Notes
 
 ## Installation
 
-```sh
-$ npm install --save ehou
-# OR
-$ yarn add ehou
+You can install this library using npm:
+
+```shell
+npm install ehou
 ```
 
 ## Usage
@@ -88,7 +95,11 @@ Ehou: {
 | `lastDigitOfTheYear` | 西暦年の1の位 | `number` |
 | `year`               | 西暦(4桁)     | `number` |
 
-## Links
+## Link
 
 - https://tools.m-bsys.com/original_tools/ehou.php
 - https://kotobank.jp/word/%E6%81%B5%E6%96%B9-37340
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
