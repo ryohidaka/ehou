@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/ehou.svg)](https://badge.fury.io/js/ehou)
 ![build](https://github.com/ryohidaka/ehou/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/ryohidaka/ehou/graph/badge.svg?token=2HWFIEVJTU)](https://codecov.io/gh/ryohidaka/ehou)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B6TVH92)
