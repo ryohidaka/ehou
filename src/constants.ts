@@ -1,4 +1,4 @@
-import { EhouType } from "../types/ehou";
+import { EhouType } from "./types/ehou";
 
 /**
  * 恵方を定義

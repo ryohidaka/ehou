@@ -1,4 +1,4 @@
-import { ehouArray } from "../const/ehou";
+import { ehouArray } from "../constants";
 
 export const getEhou = (year: number) => {
   const lastDigitStr = year.toString().slice(-1);
