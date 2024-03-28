@@ -5,7 +5,7 @@ export const getEhou = (year: number) => {
   const lastDigit = parseInt(lastDigitStr, 10);
 
   const ehou = ehouArray.filter(
-    (ehou) => ehou.lastDigitOfTheYear === lastDigit
+    (ehou) => ehou.lastDigitOfTheYear === lastDigit,
   )[0];
 
   return ehou;

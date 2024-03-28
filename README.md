@@ -27,7 +27,7 @@ npm install ehou
 ```ts
 // Create an instance
 // Year props is optional.
-const year = 2022
+const year = 2022;
 const ehou = new Ehou(year);
 
 // output
@@ -45,6 +45,7 @@ console.log(ehou.last);
 ## Output
 
 ### Sample
+
 ```ts
 Ehou: {
   ehou: {
@@ -64,6 +65,7 @@ Ehou: {
 ```
 
 ### Type
+
 ```ts
 {
   ehou: {
@@ -76,14 +78,15 @@ Ehou: {
       azimuth: number;
     }
     lastDigitOfTheYear: number;
-  }[];
+  }
+  [];
   year: number;
-};
+}
 ```
 
 ### Detail
 
-|         key          |    detail     |   type   |
+| key                  | detail        | type     |
 | -------------------- | ------------- | -------- |
 | `name`               | 年の十干      | `string` |
 | `hira`               | ひらがな表記  | `string` |
